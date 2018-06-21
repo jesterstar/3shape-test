@@ -20,6 +20,12 @@
     border: 1px solid $Element_color_2;
     padding: .7rem;
     margin-bottom: 1.5rem;
+    @media screen and (max-width: 991px) {
+      min-height: 120px;
+    }
+    @media screen and (max-width: 769px) {
+      min-height: auto;
+    }
     > a {
       font-size: 18px;
       line-height: 20px;
@@ -35,6 +41,10 @@
       bottom: .7rem;
       left: .7rem;
       right: .7rem;
+      @media screen and (max-width: 769px) {
+        margin-top: .5rem;
+        position: static;
+      }
       &:after {
         clear: both;
         content: '';
