@@ -1,0 +1,45 @@
+@import './../../assets/scss/variables_palette.scss';
+
+.card {
+  background-color: transparent;
+  border: none;
+  &__wrap {
+    position: relative;
+    background-color: $Element_color_1;
+    min-height: 100px;
+    border-radius: .25rem;
+    border: 1px solid $Element_color_2;
+    padding: .7rem;
+    margin-bottom: 1.5rem;
+    > a {
+      font-size: 18px;
+      line-height: 20px;
+      color: $Text_color_1;
+      border-bottom: 1px solid transparent;
+      &:hover {
+        border-bottom: 1px solid $Text_color_4;
+        color: $Text_color_4;
+      }
+    }
+    > div {
+      position: absolute;
+      bottom: .7rem;
+      left: .7rem;
+      right: .7rem;
+      &:after {
+        clear: both;
+        content: '';
+        display: table;
+        height: 0;
+      }
+    }
+  }
+  &__authors {
+    color: $Text_color_2;
+    float: left;
+  }
+  &__published {
+    color: $Text_color_3;
+    float: right;
+  }
+}

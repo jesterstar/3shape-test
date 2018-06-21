@@ -1,3 +1,5 @@
 export const general = {
-    LOADER_INTERVAL: 300
+    LOADER_INTERVAL: 800,
+    SEARCH_RESULT_DEFAULT_INDEX: 2,
+    REQUEST_INTERVAL: 300
 };
