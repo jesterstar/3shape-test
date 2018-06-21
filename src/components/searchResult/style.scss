@@ -3,6 +3,15 @@
 .card {
   background-color: transparent;
   border: none;
+  -webkit-transition: .3s ease all;
+  -moz-transition: .3s ease all;
+  -ms-transition: .3s ease all;
+  -o-transition: .3s ease all;
+  transition: .3s ease all;
+  -webkit-animation: flickerAnimation .4s;
+  -moz-animation: flickerAnimation .4s;
+  -o-animation: flickerAnimation .4s;
+  animation: flickerAnimation .4s;
   &__wrap {
     position: relative;
     background-color: $Element_color_1;

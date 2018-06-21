@@ -8,9 +8,9 @@ import {
     Col,
     Form,
     FormGroup,
-    Label,
-    Input
+    Label
 } from 'reactstrap';
+import {DelayInput} from 'react-delay-input';
 
 @observer
 export class MainSearch extends React.Component {
@@ -41,7 +41,14 @@ export class MainSearch extends React.Component {
                         <FormGroup row>
                             <Label for="search" xs={12}>Search a book</Label>
                             <Col xs={12}>
-                                <Input type="text" name="search" id="search" placeholder="find a book" onChange={this.onChange}/>
+                                <DelayInput
+                                    className="form-control"
+                                    type="text"
+                                    name="search"
+                                    id="search"
+                                    minLength={config.general.SEARCH_RESULT_DEFAULT_INDEX}
+                                    delayTimeout={config.general.REQUEST_INTERVAL}
+                                    onChange={this.onChange} />
                             </Col>
                         </FormGroup>
                     </Form>

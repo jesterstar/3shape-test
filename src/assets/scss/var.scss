@@ -6,14 +6,14 @@ $icon_font: 'Material-Design-Iconic-Font';
 
 //Reset css
 $selection_text_color: $Text_color_1;
-$selection_text_background: $Element_color_7;
+$selection_text_background: $Element_color_3;
 
-$body_main_background: $Element_color_8;
+$body_main_background: lighten($Element_color_2, 20);
 
 $main_links_color: $Text_color_1;
 $main_links_color--hover: $Text_color_1;
 
-$main_hr_background: $Element_color_9;
+$main_hr_background: lighten($Element_color_2, 20);
 
 //Loader
-$loader_bg: $Element_color_8;
+$loader_bg: lighten($Element_color_2, 20);
