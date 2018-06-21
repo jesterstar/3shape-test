@@ -1,0 +1,109 @@
+@import './variables_palette.scss';
+
+//Font variables
+$main_font: 'Ubuntu', cursive;
+$icon_font: 'Material-Design-Iconic-Font';
+
+//Reset css
+$selection_text_color: $Text_color_1;
+$selection_text_background: $Element_color_7;
+
+$body_main_background: $Element_color_8;
+
+$main_links_color: $Text_color_1;
+$main_links_color--hover: $Text_color_1;
+
+$main_hr_background: $Element_color_9;
+
+//Loader
+$loader_bg: $Element_color_8;
+
+//Tooltip component
+$tooltip_color_bg: $Element_color_7;
+
+//Room component
+$room_info_status_color: $Text_color_3;
+$room_info_status_bg: transparent; //$Element_color_10
+$room_info_status_bg--opened: $Element_color_3;
+$room_info_status_bg--closed: $Element_color_2;
+
+//Room tablet
+$room_title_bg: $Element_color_5;
+$room_title_span_color: $Text_color_1;
+$room_title_span_border: $Text_color_1;
+$room_title_span_status_color: $Text_color_3;
+$room_title_span_status_background--default: transparent;
+$room_title_span_status_background--opened: $Element_color_3;
+$room_title_span_status_background--closed: $Element_color_2;
+$room__timeline_li_bg--odd: darken($Element_color_8, 10);
+$room__timeline_li_bg--even: $Element_color_8;
+$room__timeline_li_remove_color: $Element_color_2;
+
+//Undermaintenance component
+$undermaintenance_column_first_after_bg: rgba($Element_color_7, .7);
+$undermaintenance_column_first_after_bg--boxShadow: rgba($Element_color_7, 1);
+$undermaintenance_column_second_bg: $Element_color_7;
+
+$undermaintenance_content_heading_color: $Text_color_1;
+$undermaintenance_content_maintext_color: $Text_color_3;
+$undermaintenance_content_subtext_color: $Text_color_3;
+$undermaintenance_content_button_color: $Text_color_3;
+$undermaintenance_content_button_border: $Element_color_1;
+
+//Footer container
+$footer_color_bg: $Element_color_10;
+$footer_color_border_top: $Element_color_9;
+
+//Room-list container
+$room-list_link_color--hover: $Text_color_1;
+$room-list_last_time_color: $Text_color_1;
+
+$accordion_title_color: lighten($Element_color_6, 25);
+$accordion_title_color---hover: $Element_color_10;
+$accordion_title_bg: $Element_color_5;
+$accordion_title_bg--hover: lighten($Element_color_5, 25);
+$accordion_title_border: $Element_color_1;
+$accordion_title_border--active: $Element_color_1;
+
+$accordion_icon_color: $Element_color_1;
+$accordion_icon_open: $Element_color_3;
+$accordion_icon_close: $Element_color_2;
+
+$card_subtitle_color--open: $Element_color_3;
+$card_subtitle_color--close: $Element_color_2;
+
+//floor SVG container
+$svg_st0_fill: $Element_color_8;
+$svg_st1_fill: $Element_color_1;
+
+//calednar rewrite styles
+$rct_header_bg: $Element_color_5;
+
+$rct_sidebar_header_bg: $Element_color_5;
+$rct_sidebar_header_color: $Text_color_4;
+$rct_sidebar_header_border: transparent;
+$rct_sidebar_header_border--width: 0;
+
+$rct_sidebar_row_even_bg: $room__timeline_li_bg--even;
+$rct_sidebar_row_odd_bg: $room__timeline_li_bg--odd;
+
+$rct_scroll_left_bg_gradient: linear-gradient(to right, $rct_sidebar_header_bg, rgba(41,43,52,0));
+$rct_scroll_right_bg_gradient: linear-gradient(to left, $rct_sidebar_header_bg, rgba(127, 129, 138, 0));
+
+$rct_today_bg: $Element_color_1;
+
+$rct_item_bg: $Element_color_3;
+$rct_item_border_color: $Element_color_3;
+$rct_item_border_size: 1px;
+$rct_item_color: $Text_color_3;
+
+$rct_label_group_border_color: transparent;
+$rct_label_bg: $rct_sidebar_header_bg;
+$rct_label_color: lighten($Text_color_1, 5);
+
+$rct_vertical_lines_border: $Text_color_1;
+$rct_vertical_lines_bg: transparent;
+$rct_vertical_lines_bg--even: $room__timeline_li_bg--even;
+$rct_vertical_lines_bg--odd: $room__timeline_li_bg--odd;
+
+$rct_horizontal_lines_border: transparent;
